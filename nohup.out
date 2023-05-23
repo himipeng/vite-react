@@ -1,0 +1,45 @@
+ Container docker-test-app-1  Created
+Attaching to docker-test-app-1
+docker-test-app-1  | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+docker-test-app-1  | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+docker-test-app-1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+docker-test-app-1  | 10-listen-on-ipv6-by-default.sh: info: IPv6 listen already enabled
+docker-test-app-1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+docker-test-app-1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+docker-test-app-1  | /docker-entrypoint.sh: Configuration complete; ready for start up
+docker-test-app-1  | 2023/05/23 03:10:13 [notice] 1#1: using the "epoll" event method
+docker-test-app-1  | 2023/05/23 03:10:13 [notice] 1#1: nginx/1.21.5
+docker-test-app-1  | 2023/05/23 03:10:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+docker-test-app-1  | 2023/05/23 03:10:13 [notice] 1#1: OS: Linux 3.10.0-1160.90.1.el7.x86_64
+docker-test-app-1  | 2023/05/23 03:10:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+docker-test-app-1  | 2023/05/23 03:10:13 [notice] 1#1: start worker processes
+docker-test-app-1  | 2023/05/23 03:10:13 [notice] 1#1: start worker process 24
+docker-test-app-1  | 2023/05/23 03:10:13 [notice] 1#1: start worker process 25
+docker-test-app-1  | 2023/05/23 03:10:13 [notice] 1#1: start worker process 26
+docker-test-app-1  | 2023/05/23 03:10:13 [notice] 1#1: start worker process 27
+Gracefully stopping... (press Ctrl+C again to force)
+Aborting on container exit...
+ Container docker-test-app-1  Stopping
+ Container docker-test-app-1  Stopped
+canceled
+ Container docker-test-app-1  Created
+Attaching to docker-test-app-1
+docker-test-app-1  | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+docker-test-app-1  | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+docker-test-app-1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+docker-test-app-1  | 10-listen-on-ipv6-by-default.sh: info: IPv6 listen already enabled
+docker-test-app-1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+docker-test-app-1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+docker-test-app-1  | /docker-entrypoint.sh: Configuration complete; ready for start up
+docker-test-app-1  | 2023/05/23 03:10:32 [notice] 1#1: using the "epoll" event method
+docker-test-app-1  | 2023/05/23 03:10:32 [notice] 1#1: nginx/1.21.5
+docker-test-app-1  | 2023/05/23 03:10:32 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+docker-test-app-1  | 2023/05/23 03:10:32 [notice] 1#1: OS: Linux 3.10.0-1160.90.1.el7.x86_64
+docker-test-app-1  | 2023/05/23 03:10:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+docker-test-app-1  | 2023/05/23 03:10:32 [notice] 1#1: start worker processes
+docker-test-app-1  | 2023/05/23 03:10:32 [notice] 1#1: start worker process 24
+docker-test-app-1  | 2023/05/23 03:10:32 [notice] 1#1: start worker process 25
+docker-test-app-1  | 2023/05/23 03:10:32 [notice] 1#1: start worker process 26
+docker-test-app-1  | 2023/05/23 03:10:32 [notice] 1#1: start worker process 27
+docker-test-app-1  | 119.136.27.188 - - [23/May/2023:03:10:40 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" "-"
+docker-test-app-1  | 119.136.27.188 - - [23/May/2023:03:10:42 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" "-"

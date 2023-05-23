@@ -6,3 +6,6 @@ services:
     # 服务名称
     app:
         build: ./
+        ports:
+            - 80:80
+
